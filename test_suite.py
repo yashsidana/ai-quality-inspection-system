@@ -6,7 +6,11 @@ Verifies detector inference, OpenCV pipelines, database operations, and metrics.
 import os
 import sys
 import numpy as np
-import pytest
+try:
+    import pytest
+    HAS_PYTEST = True
+except ImportError:
+    HAS_PYTEST = False
 
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 if PROJECT_ROOT not in sys.path:
@@ -19,14 +23,17 @@ from database.db import init_db, get_db
 from database.repository import InspectionRepository
 from data.generate_samples import create_pcb_sample, create_steel_sample, create_flawless_sample
 
+if HAS_PYTEST:
+    @pytest.fixture(scope="module")
+    def setup_database():
+        """Initializes local test database."""
+        init_db()
+else:
+    def setup_database():
+        init_db()
 
-@pytest.fixture(scope="module")
-def setup_database():
-    """Initializes local test database."""
-    init_db()
 
-
-def test_detector_defective_sample(setup_database):
+def test_detector_defective_sample(setup_db=None):
     """Verifies that a component with defects is detected and marked FAIL."""
     detector = DefectDetector()
     pcb_with_scratch = create_pcb_sample(has_scratch=True)
@@ -73,7 +80,7 @@ def test_opencv_pipeline():
     assert sbs.shape[2] == 3
 
 
-def test_database_persistence(setup_database):
+def test_database_persistence(setup_db=None):
     """Verifies logging an inspection and querying analytics."""
     part_id = "TEST-PART-VERIFY-001"
     defects = [{
@@ -116,4 +123,26 @@ def test_metrics_calculator():
 
 
 if __name__ == "__main__":
-    pytest.main(["-v", __file__])
+    if HAS_PYTEST:
+        pytest.main(["-v", __file__])
+    else:
+        print("[TestSuite] Running test suite via built-in runner...")
+        init_db()
+        tests = [
+            ("test_detector_defective_sample", test_detector_defective_sample),
+            ("test_detector_flawless_sample", test_detector_flawless_sample),
+            ("test_opencv_pipeline", test_opencv_pipeline),
+            ("test_database_persistence", test_database_persistence),
+            ("test_metrics_calculator", test_metrics_calculator),
+        ]
+        passed = 0
+        for name, fn in tests:
+            try:
+                fn()
+                print(f"  PASS: {name}")
+                passed += 1
+            except Exception as e:
+                print(f"  FAIL: {name} -> {e}")
+        print(f"[TestSuite] Results: {passed}/{len(tests)} tests passed.")
+        if passed < len(tests):
+            sys.exit(1)

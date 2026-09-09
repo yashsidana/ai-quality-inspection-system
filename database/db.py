@@ -36,8 +36,16 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 
 def init_db():
-    """Initializes all table schemas in the connected database."""
-    Base.metadata.create_all(bind=engine)
+    """Initializes all table schemas in the connected database with automatic SQLite fallback."""
+    global engine, SessionLocal
+    try:
+        Base.metadata.create_all(bind=engine)
+    except Exception as e:
+        print(f"[Database] Primary DB connection failed ({e}). Falling back to SQLite.")
+        db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "quality_inspection.db")
+        engine = create_engine(f"sqlite:///{db_path}", connect_args={"check_same_thread": False})
+        SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+        Base.metadata.create_all(bind=engine)
 
 
 @contextmanager
