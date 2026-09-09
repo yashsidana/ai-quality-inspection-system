@@ -10,6 +10,7 @@ import time
 from datetime import datetime
 from PIL import Image
 import numpy as np
+import cv2
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
