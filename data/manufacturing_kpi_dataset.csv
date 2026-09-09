@@ -1,0 +1,801 @@
+Inspection_ID,Timestamp,Date,Hour,Assembly_Line,Product_Category,Shift,Operator,Inspection_Result,Defect_Type,Severity,Confidence,Inference_Latency_ms,Scrap_Cost_USD
+INSP-10000,2026-08-26 22:20:20,2026-08-26,22,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.973,22.51,0.0
+INSP-10001,2026-08-26 22:35:20,2026-08-26,22,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.97,32.93,0.0
+INSP-10002,2026-08-26 23:05:20,2026-08-26,23,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.982,24.66,0.0
+INSP-10003,2026-08-26 23:25:20,2026-08-26,23,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.97,25.86,0.0
+INSP-10004,2026-08-26 23:55:20,2026-08-26,23,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.965,20.79,0.0
+INSP-10005,2026-08-27 00:18:20,2026-08-27,0,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.982,29.64,0.0
+INSP-10006,2026-08-27 00:45:20,2026-08-27,0,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.961,30.84,0.0
+INSP-10007,2026-08-27 01:00:20,2026-08-27,1,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.977,21.17,0.0
+INSP-10008,2026-08-27 01:19:20,2026-08-27,1,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.98,25.11,0.0
+INSP-10009,2026-08-27 01:53:20,2026-08-27,1,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.97,28.25,0.0
+INSP-10010,2026-08-27 02:13:20,2026-08-27,2,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.982,22.43,0.0
+INSP-10011,2026-08-27 02:40:20,2026-08-27,2,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-305 (Priya S.),REJECT,Misalignment,Moderate,0.943,28.61,36.95
+INSP-10012,2026-08-27 03:00:20,2026-08-27,3,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.972,23.96,0.0
+INSP-10013,2026-08-27 03:23:20,2026-08-27,3,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.981,22.04,0.0
+INSP-10014,2026-08-27 03:57:20,2026-08-27,3,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.966,33.59,0.0
+INSP-10015,2026-08-27 04:07:20,2026-08-27,4,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.978,18.86,0.0
+INSP-10016,2026-08-27 04:38:20,2026-08-27,4,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.964,20.5,0.0
+INSP-10017,2026-08-27 04:58:20,2026-08-27,4,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.961,20.63,0.0
+INSP-10018,2026-08-27 05:24:20,2026-08-27,5,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.996,33.32,0.0
+INSP-10019,2026-08-27 05:56:20,2026-08-27,5,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.973,21.44,0.0
+INSP-10020,2026-08-27 06:09:20,2026-08-27,6,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.971,22.91,0.0
+INSP-10021,2026-08-27 06:45:20,2026-08-27,6,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.981,32.2,0.0
+INSP-10022,2026-08-27 07:03:20,2026-08-27,7,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.985,24.93,0.0
+INSP-10023,2026-08-27 07:28:20,2026-08-27,7,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.986,24.5,0.0
+INSP-10024,2026-08-27 07:55:20,2026-08-27,7,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.972,27.66,0.0
+INSP-10025,2026-08-27 08:09:20,2026-08-27,8,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.976,25.51,0.0
+INSP-10026,2026-08-27 08:45:20,2026-08-27,8,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.985,25.64,0.0
+INSP-10027,2026-08-27 09:04:20,2026-08-27,9,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.972,20.03,0.0
+INSP-10028,2026-08-27 09:30:20,2026-08-27,9,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.998,18.88,0.0
+INSP-10029,2026-08-27 09:57:20,2026-08-27,9,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.998,24.11,0.0
+INSP-10030,2026-08-27 10:19:20,2026-08-27,10,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.972,25.24,0.0
+INSP-10031,2026-08-27 10:44:20,2026-08-27,10,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.983,29.39,0.0
+INSP-10032,2026-08-27 11:04:20,2026-08-27,11,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.973,32.32,0.0
+INSP-10033,2026-08-27 11:20:20,2026-08-27,11,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.983,18.23,0.0
+INSP-10034,2026-08-27 11:57:20,2026-08-27,11,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.96,29.9,0.0
+INSP-10035,2026-08-27 12:08:20,2026-08-27,12,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.966,22.74,0.0
+INSP-10036,2026-08-27 12:32:20,2026-08-27,12,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.973,28.42,0.0
+INSP-10037,2026-08-27 13:04:20,2026-08-27,13,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.971,28.8,0.0
+INSP-10038,2026-08-27 13:23:20,2026-08-27,13,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-418 (Chen W.),REJECT,Crack,Critical,0.91,22.19,177.83
+INSP-10039,2026-08-27 13:44:20,2026-08-27,13,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.986,22.95,0.0
+INSP-10040,2026-08-27 14:15:20,2026-08-27,14,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.973,23.6,0.0
+INSP-10041,2026-08-27 14:41:20,2026-08-27,14,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.995,32.27,0.0
+INSP-10042,2026-08-27 15:00:20,2026-08-27,15,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.987,28.02,0.0
+INSP-10043,2026-08-27 15:30:20,2026-08-27,15,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.985,29.71,0.0
+INSP-10044,2026-08-27 15:57:20,2026-08-27,15,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.985,20.66,0.0
+INSP-10045,2026-08-27 16:12:20,2026-08-27,16,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.98,34.48,0.0
+INSP-10046,2026-08-27 16:35:20,2026-08-27,16,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.985,23.55,0.0
+INSP-10047,2026-08-27 16:56:20,2026-08-27,16,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.984,21.47,0.0
+INSP-10048,2026-08-27 17:22:20,2026-08-27,17,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.977,22.23,0.0
+INSP-10049,2026-08-27 17:47:20,2026-08-27,17,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.963,22.33,0.0
+INSP-10050,2026-08-27 18:08:20,2026-08-27,18,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.979,30.52,0.0
+INSP-10051,2026-08-27 18:38:20,2026-08-27,18,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.981,32.74,0.0
+INSP-10052,2026-08-27 18:58:20,2026-08-27,18,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.976,27.25,0.0
+INSP-10053,2026-08-27 19:33:20,2026-08-27,19,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.968,31.85,0.0
+INSP-10054,2026-08-27 19:53:20,2026-08-27,19,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.978,20.73,0.0
+INSP-10055,2026-08-27 20:09:20,2026-08-27,20,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.971,24.58,0.0
+INSP-10056,2026-08-27 20:34:20,2026-08-27,20,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.989,26.21,0.0
+INSP-10057,2026-08-27 20:56:20,2026-08-27,20,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.973,25.77,0.0
+INSP-10058,2026-08-27 21:26:20,2026-08-27,21,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.998,28.26,0.0
+INSP-10059,2026-08-27 21:47:20,2026-08-27,21,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.97,27.58,0.0
+INSP-10060,2026-08-27 22:16:20,2026-08-27,22,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.97,28.55,0.0
+INSP-10061,2026-08-27 22:42:20,2026-08-27,22,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.963,21.65,0.0
+INSP-10062,2026-08-27 23:09:20,2026-08-27,23,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.969,23.19,0.0
+INSP-10063,2026-08-27 23:27:20,2026-08-27,23,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.989,22.05,0.0
+INSP-10064,2026-08-27 23:52:20,2026-08-27,23,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.975,21.27,0.0
+INSP-10065,2026-08-28 00:18:20,2026-08-28,0,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.969,33.77,0.0
+INSP-10066,2026-08-28 00:40:20,2026-08-28,0,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.974,29.03,0.0
+INSP-10067,2026-08-28 00:56:20,2026-08-28,0,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.973,26.65,0.0
+INSP-10068,2026-08-28 01:31:20,2026-08-28,1,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.983,34.1,0.0
+INSP-10069,2026-08-28 01:55:20,2026-08-28,1,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-212 (Devin K.),REJECT,Surface_Stain,Moderate,0.917,23.46,24.75
+INSP-10070,2026-08-28 02:12:20,2026-08-28,2,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.97,32.19,0.0
+INSP-10071,2026-08-28 02:44:20,2026-08-28,2,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.986,30.69,0.0
+INSP-10072,2026-08-28 02:55:20,2026-08-28,2,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.964,33.3,0.0
+INSP-10073,2026-08-28 03:19:20,2026-08-28,3,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.961,28.43,0.0
+INSP-10074,2026-08-28 03:54:20,2026-08-28,3,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.996,31.05,0.0
+INSP-10075,2026-08-28 04:08:20,2026-08-28,4,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.987,24.67,0.0
+INSP-10076,2026-08-28 04:31:20,2026-08-28,4,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.994,24.43,0.0
+INSP-10077,2026-08-28 04:57:20,2026-08-28,4,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.986,32.51,0.0
+INSP-10078,2026-08-28 05:27:20,2026-08-28,5,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.969,19.05,0.0
+INSP-10079,2026-08-28 05:46:20,2026-08-28,5,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.967,19.41,0.0
+INSP-10080,2026-08-28 06:07:20,2026-08-28,6,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.996,25.93,0.0
+INSP-10081,2026-08-28 06:34:20,2026-08-28,6,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.962,23.2,0.0
+INSP-10082,2026-08-28 06:59:20,2026-08-28,6,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.979,30.77,0.0
+INSP-10083,2026-08-28 07:30:20,2026-08-28,7,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.977,25.79,0.0
+INSP-10084,2026-08-28 07:52:20,2026-08-28,7,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.978,33.71,0.0
+INSP-10085,2026-08-28 08:15:20,2026-08-28,8,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.997,18.27,0.0
+INSP-10086,2026-08-28 08:33:20,2026-08-28,8,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.994,27.32,0.0
+INSP-10087,2026-08-28 09:01:20,2026-08-28,9,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.964,20.02,0.0
+INSP-10088,2026-08-28 09:21:20,2026-08-28,9,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.974,32.45,0.0
+INSP-10089,2026-08-28 09:57:20,2026-08-28,9,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.967,24.77,0.0
+INSP-10090,2026-08-28 10:13:20,2026-08-28,10,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.974,29.13,0.0
+INSP-10091,2026-08-28 10:31:20,2026-08-28,10,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.994,24.04,0.0
+INSP-10092,2026-08-28 11:02:20,2026-08-28,11,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.969,23.84,0.0
+INSP-10093,2026-08-28 11:25:20,2026-08-28,11,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.975,33.39,0.0
+INSP-10094,2026-08-28 11:54:20,2026-08-28,11,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-305 (Priya S.),REJECT,Surface_Stain,Minor,0.908,34.03,45.19
+INSP-10095,2026-08-28 12:18:20,2026-08-28,12,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.976,26.78,0.0
+INSP-10096,2026-08-28 12:37:20,2026-08-28,12,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.972,21.55,0.0
+INSP-10097,2026-08-28 12:57:20,2026-08-28,12,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.973,22.56,0.0
+INSP-10098,2026-08-28 13:21:20,2026-08-28,13,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.961,32.33,0.0
+INSP-10099,2026-08-28 13:53:20,2026-08-28,13,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-104 (Elena R.),REJECT,Dent,Moderate,0.899,33.49,19.95
+INSP-10100,2026-08-28 14:09:20,2026-08-28,14,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.979,27.89,0.0
+INSP-10101,2026-08-28 14:32:20,2026-08-28,14,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.979,26.65,0.0
+INSP-10102,2026-08-28 14:59:20,2026-08-28,14,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.965,24.92,0.0
+INSP-10103,2026-08-28 15:32:20,2026-08-28,15,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.981,32.19,0.0
+INSP-10104,2026-08-28 15:52:20,2026-08-28,15,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.994,23.68,0.0
+INSP-10105,2026-08-28 16:09:20,2026-08-28,16,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.994,22.49,0.0
+INSP-10106,2026-08-28 16:45:20,2026-08-28,16,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.985,31.04,0.0
+INSP-10107,2026-08-28 17:04:20,2026-08-28,17,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.978,20.01,0.0
+INSP-10108,2026-08-28 17:32:20,2026-08-28,17,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.97,24.39,0.0
+INSP-10109,2026-08-28 17:55:20,2026-08-28,17,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.988,20.75,0.0
+INSP-10110,2026-08-28 18:21:20,2026-08-28,18,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.97,19.89,0.0
+INSP-10111,2026-08-28 18:39:20,2026-08-28,18,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.961,20.91,0.0
+INSP-10112,2026-08-28 19:05:20,2026-08-28,19,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.975,24.3,0.0
+INSP-10113,2026-08-28 19:19:20,2026-08-28,19,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.962,32.34,0.0
+INSP-10114,2026-08-28 19:48:20,2026-08-28,19,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-104 (Elena R.),REJECT,Scratch,Minor,0.895,30.87,42.87
+INSP-10115,2026-08-28 20:18:20,2026-08-28,20,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.984,34.34,0.0
+INSP-10116,2026-08-28 20:43:20,2026-08-28,20,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.982,20.36,0.0
+INSP-10117,2026-08-28 21:07:20,2026-08-28,21,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-212 (Devin K.),REJECT,Burr,Moderate,0.915,29.85,16.76
+INSP-10118,2026-08-28 21:32:20,2026-08-28,21,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.996,32.16,0.0
+INSP-10119,2026-08-28 21:46:20,2026-08-28,21,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.969,31.97,0.0
+INSP-10120,2026-08-28 22:09:20,2026-08-28,22,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.979,20.39,0.0
+INSP-10121,2026-08-28 22:38:20,2026-08-28,22,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.974,23.42,0.0
+INSP-10122,2026-08-28 22:56:20,2026-08-28,22,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.963,26.41,0.0
+INSP-10123,2026-08-28 23:20:20,2026-08-28,23,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.971,34.1,0.0
+INSP-10124,2026-08-28 23:44:20,2026-08-28,23,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.985,27.68,0.0
+INSP-10125,2026-08-29 00:20:20,2026-08-29,0,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.989,20.06,0.0
+INSP-10126,2026-08-29 00:43:20,2026-08-29,0,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.993,30.0,0.0
+INSP-10127,2026-08-29 01:00:20,2026-08-29,1,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.974,34.25,0.0
+INSP-10128,2026-08-29 01:30:20,2026-08-29,1,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.991,33.52,0.0
+INSP-10129,2026-08-29 01:45:20,2026-08-29,1,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.973,28.84,0.0
+INSP-10130,2026-08-29 02:16:20,2026-08-29,2,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.961,26.89,0.0
+INSP-10131,2026-08-29 02:40:20,2026-08-29,2,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.961,20.97,0.0
+INSP-10132,2026-08-29 03:09:20,2026-08-29,3,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.971,25.64,0.0
+INSP-10133,2026-08-29 03:32:20,2026-08-29,3,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.973,19.24,0.0
+INSP-10134,2026-08-29 03:46:20,2026-08-29,3,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.969,29.72,0.0
+INSP-10135,2026-08-29 04:12:20,2026-08-29,4,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.967,33.43,0.0
+INSP-10136,2026-08-29 04:39:20,2026-08-29,4,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.961,28.26,0.0
+INSP-10137,2026-08-29 04:55:20,2026-08-29,4,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.987,20.47,0.0
+INSP-10138,2026-08-29 05:22:20,2026-08-29,5,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.99,21.33,0.0
+INSP-10139,2026-08-29 05:50:20,2026-08-29,5,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.982,32.06,0.0
+INSP-10140,2026-08-29 06:07:20,2026-08-29,6,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.977,31.09,0.0
+INSP-10141,2026-08-29 06:37:20,2026-08-29,6,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.962,22.42,0.0
+INSP-10142,2026-08-29 06:57:20,2026-08-29,6,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.983,33.35,0.0
+INSP-10143,2026-08-29 07:30:20,2026-08-29,7,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.961,22.01,0.0
+INSP-10144,2026-08-29 07:43:20,2026-08-29,7,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.978,29.89,0.0
+INSP-10145,2026-08-29 08:19:20,2026-08-29,8,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.987,28.22,0.0
+INSP-10146,2026-08-29 08:43:20,2026-08-29,8,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.988,20.21,0.0
+INSP-10147,2026-08-29 09:06:20,2026-08-29,9,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.983,32.16,0.0
+INSP-10148,2026-08-29 09:21:20,2026-08-29,9,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.988,34.0,0.0
+INSP-10149,2026-08-29 09:57:20,2026-08-29,9,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.999,34.22,0.0
+INSP-10150,2026-08-29 10:16:20,2026-08-29,10,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.972,29.31,0.0
+INSP-10151,2026-08-29 10:31:20,2026-08-29,10,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.998,25.7,0.0
+INSP-10152,2026-08-29 11:06:20,2026-08-29,11,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.996,32.97,0.0
+INSP-10153,2026-08-29 11:30:20,2026-08-29,11,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-418 (Chen W.),REJECT,Dent,Moderate,0.977,34.48,26.49
+INSP-10154,2026-08-29 11:45:20,2026-08-29,11,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.982,28.32,0.0
+INSP-10155,2026-08-29 12:11:20,2026-08-29,12,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.98,30.89,0.0
+INSP-10156,2026-08-29 12:42:20,2026-08-29,12,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.973,21.96,0.0
+INSP-10157,2026-08-29 13:05:20,2026-08-29,13,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.996,20.58,0.0
+INSP-10158,2026-08-29 13:30:20,2026-08-29,13,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.991,22.74,0.0
+INSP-10159,2026-08-29 13:46:20,2026-08-29,13,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.989,25.98,0.0
+INSP-10160,2026-08-29 14:17:20,2026-08-29,14,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.997,29.74,0.0
+INSP-10161,2026-08-29 14:32:20,2026-08-29,14,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.968,28.03,0.0
+INSP-10162,2026-08-29 15:03:20,2026-08-29,15,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.985,31.66,0.0
+INSP-10163,2026-08-29 15:24:20,2026-08-29,15,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.961,31.79,0.0
+INSP-10164,2026-08-29 15:54:20,2026-08-29,15,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.974,27.5,0.0
+INSP-10165,2026-08-29 16:18:20,2026-08-29,16,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.99,29.01,0.0
+INSP-10166,2026-08-29 16:41:20,2026-08-29,16,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.981,31.15,0.0
+INSP-10167,2026-08-29 17:07:20,2026-08-29,17,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-109 (Marcus V.),REJECT,Scratch,Moderate,0.972,33.55,51.24
+INSP-10168,2026-08-29 17:24:20,2026-08-29,17,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.981,30.02,0.0
+INSP-10169,2026-08-29 17:52:20,2026-08-29,17,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.97,27.85,0.0
+INSP-10170,2026-08-29 18:14:20,2026-08-29,18,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.987,21.07,0.0
+INSP-10171,2026-08-29 18:43:20,2026-08-29,18,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.969,21.58,0.0
+INSP-10172,2026-08-29 19:06:20,2026-08-29,19,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.996,33.63,0.0
+INSP-10173,2026-08-29 19:26:20,2026-08-29,19,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.978,27.96,0.0
+INSP-10174,2026-08-29 19:54:20,2026-08-29,19,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.978,26.43,0.0
+INSP-10175,2026-08-29 20:20:20,2026-08-29,20,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.993,28.67,0.0
+INSP-10176,2026-08-29 20:43:20,2026-08-29,20,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.975,33.01,0.0
+INSP-10177,2026-08-29 20:56:20,2026-08-29,20,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.979,19.39,0.0
+INSP-10178,2026-08-29 21:20:20,2026-08-29,21,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.974,24.24,0.0
+INSP-10179,2026-08-29 21:56:20,2026-08-29,21,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.962,26.27,0.0
+INSP-10180,2026-08-29 22:15:20,2026-08-29,22,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.982,24.57,0.0
+INSP-10181,2026-08-29 22:37:20,2026-08-29,22,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.971,33.4,0.0
+INSP-10182,2026-08-29 23:02:20,2026-08-29,23,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.966,26.04,0.0
+INSP-10183,2026-08-29 23:29:20,2026-08-29,23,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.986,22.5,0.0
+INSP-10184,2026-08-29 23:57:20,2026-08-29,23,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.961,25.62,0.0
+INSP-10185,2026-08-30 00:15:20,2026-08-30,0,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.998,31.66,0.0
+INSP-10186,2026-08-30 00:31:20,2026-08-30,0,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.998,30.36,0.0
+INSP-10187,2026-08-30 01:07:20,2026-08-30,1,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.966,30.15,0.0
+INSP-10188,2026-08-30 01:30:20,2026-08-30,1,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.976,19.21,0.0
+INSP-10189,2026-08-30 01:55:20,2026-08-30,1,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.999,24.46,0.0
+INSP-10190,2026-08-30 02:19:20,2026-08-30,2,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-305 (Priya S.),REJECT,Burr,Moderate,0.926,32.63,62.09
+INSP-10191,2026-08-30 02:39:20,2026-08-30,2,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.996,33.47,0.0
+INSP-10192,2026-08-30 03:07:20,2026-08-30,3,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.976,29.74,0.0
+INSP-10193,2026-08-30 03:23:20,2026-08-30,3,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.971,33.72,0.0
+INSP-10194,2026-08-30 03:52:20,2026-08-30,3,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.968,25.66,0.0
+INSP-10195,2026-08-30 04:12:20,2026-08-30,4,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-109 (Marcus V.),REJECT,Burr,Minor,0.949,23.48,20.04
+INSP-10196,2026-08-30 04:43:20,2026-08-30,4,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.998,33.4,0.0
+INSP-10197,2026-08-30 05:01:20,2026-08-30,5,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.968,31.27,0.0
+INSP-10198,2026-08-30 05:30:20,2026-08-30,5,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.979,26.97,0.0
+INSP-10199,2026-08-30 05:48:20,2026-08-30,5,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.998,30.25,0.0
+INSP-10200,2026-08-30 06:17:20,2026-08-30,6,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.992,31.81,0.0
+INSP-10201,2026-08-30 06:38:20,2026-08-30,6,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.966,33.74,0.0
+INSP-10202,2026-08-30 06:59:20,2026-08-30,6,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.962,22.88,0.0
+INSP-10203,2026-08-30 07:33:20,2026-08-30,7,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.988,29.0,0.0
+INSP-10204,2026-08-30 07:52:20,2026-08-30,7,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.962,31.66,0.0
+INSP-10205,2026-08-30 08:20:20,2026-08-30,8,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.998,19.51,0.0
+INSP-10206,2026-08-30 08:44:20,2026-08-30,8,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.996,28.94,0.0
+INSP-10207,2026-08-30 09:07:20,2026-08-30,9,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.967,19.04,0.0
+INSP-10208,2026-08-30 09:32:20,2026-08-30,9,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.984,22.1,0.0
+INSP-10209,2026-08-30 09:48:20,2026-08-30,9,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.995,22.8,0.0
+INSP-10210,2026-08-30 10:15:20,2026-08-30,10,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.989,28.6,0.0
+INSP-10211,2026-08-30 10:45:20,2026-08-30,10,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.964,20.39,0.0
+INSP-10212,2026-08-30 11:07:20,2026-08-30,11,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.963,29.29,0.0
+INSP-10213,2026-08-30 11:31:20,2026-08-30,11,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.997,19.25,0.0
+INSP-10214,2026-08-30 11:46:20,2026-08-30,11,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.982,33.71,0.0
+INSP-10215,2026-08-30 12:08:20,2026-08-30,12,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.994,27.11,0.0
+INSP-10216,2026-08-30 12:45:20,2026-08-30,12,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.967,18.53,0.0
+INSP-10217,2026-08-30 12:56:20,2026-08-30,12,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.995,19.77,0.0
+INSP-10218,2026-08-30 13:29:20,2026-08-30,13,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.978,32.26,0.0
+INSP-10219,2026-08-30 13:47:20,2026-08-30,13,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.991,25.17,0.0
+INSP-10220,2026-08-30 14:20:20,2026-08-30,14,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.971,29.57,0.0
+INSP-10221,2026-08-30 14:31:20,2026-08-30,14,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.986,22.53,0.0
+INSP-10222,2026-08-30 15:02:20,2026-08-30,15,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.976,29.61,0.0
+INSP-10223,2026-08-30 15:24:20,2026-08-30,15,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.97,22.43,0.0
+INSP-10224,2026-08-30 15:56:20,2026-08-30,15,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.961,23.67,0.0
+INSP-10225,2026-08-30 16:20:20,2026-08-30,16,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.966,22.13,0.0
+INSP-10226,2026-08-30 16:37:20,2026-08-30,16,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.984,20.36,0.0
+INSP-10227,2026-08-30 17:04:20,2026-08-30,17,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.993,34.41,0.0
+INSP-10228,2026-08-30 17:21:20,2026-08-30,17,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.991,30.34,0.0
+INSP-10229,2026-08-30 17:48:20,2026-08-30,17,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.98,22.43,0.0
+INSP-10230,2026-08-30 18:20:20,2026-08-30,18,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.967,22.26,0.0
+INSP-10231,2026-08-30 18:33:20,2026-08-30,18,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.972,32.54,0.0
+INSP-10232,2026-08-30 19:06:20,2026-08-30,19,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.975,24.04,0.0
+INSP-10233,2026-08-30 19:28:20,2026-08-30,19,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.968,22.61,0.0
+INSP-10234,2026-08-30 19:56:20,2026-08-30,19,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.971,21.04,0.0
+INSP-10235,2026-08-30 20:19:20,2026-08-30,20,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.976,23.77,0.0
+INSP-10236,2026-08-30 20:35:20,2026-08-30,20,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.961,29.83,0.0
+INSP-10237,2026-08-30 21:07:20,2026-08-30,21,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.969,18.38,0.0
+INSP-10238,2026-08-30 21:31:20,2026-08-30,21,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.992,31.43,0.0
+INSP-10239,2026-08-30 21:50:20,2026-08-30,21,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.991,27.83,0.0
+INSP-10240,2026-08-30 22:14:20,2026-08-30,22,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.975,32.93,0.0
+INSP-10241,2026-08-30 22:35:20,2026-08-30,22,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.967,28.29,0.0
+INSP-10242,2026-08-30 23:05:20,2026-08-30,23,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.995,22.11,0.0
+INSP-10243,2026-08-30 23:23:20,2026-08-30,23,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-305 (Priya S.),REJECT,Surface_Stain,Minor,0.963,26.86,58.52
+INSP-10244,2026-08-30 23:56:20,2026-08-30,23,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.982,27.17,0.0
+INSP-10245,2026-08-31 00:12:20,2026-08-31,0,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.973,27.85,0.0
+INSP-10246,2026-08-31 00:31:20,2026-08-31,0,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.987,18.94,0.0
+INSP-10247,2026-08-31 01:08:20,2026-08-31,1,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.981,31.3,0.0
+INSP-10248,2026-08-31 01:26:20,2026-08-31,1,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.97,23.64,0.0
+INSP-10249,2026-08-31 01:50:20,2026-08-31,1,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.994,26.1,0.0
+INSP-10250,2026-08-31 02:14:20,2026-08-31,2,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.984,32.04,0.0
+INSP-10251,2026-08-31 02:36:20,2026-08-31,2,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.979,24.31,0.0
+INSP-10252,2026-08-31 03:00:20,2026-08-31,3,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.992,24.38,0.0
+INSP-10253,2026-08-31 03:25:20,2026-08-31,3,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-212 (Devin K.),REJECT,Burr,Moderate,0.914,33.78,22.5
+INSP-10254,2026-08-31 03:44:20,2026-08-31,3,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.996,18.8,0.0
+INSP-10255,2026-08-31 04:07:20,2026-08-31,4,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.979,29.6,0.0
+INSP-10256,2026-08-31 04:40:20,2026-08-31,4,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.976,21.31,0.0
+INSP-10257,2026-08-31 05:08:20,2026-08-31,5,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.967,23.16,0.0
+INSP-10258,2026-08-31 05:25:20,2026-08-31,5,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.962,18.38,0.0
+INSP-10259,2026-08-31 05:53:20,2026-08-31,5,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.988,31.2,0.0
+INSP-10260,2026-08-31 06:16:20,2026-08-31,6,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.971,20.12,0.0
+INSP-10261,2026-08-31 06:36:20,2026-08-31,6,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.983,32.95,0.0
+INSP-10262,2026-08-31 07:05:20,2026-08-31,7,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-418 (Chen W.),REJECT,Burr,Minor,0.885,27.63,42.87
+INSP-10263,2026-08-31 07:32:20,2026-08-31,7,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.981,31.77,0.0
+INSP-10264,2026-08-31 07:52:20,2026-08-31,7,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.961,19.93,0.0
+INSP-10265,2026-08-31 08:11:20,2026-08-31,8,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.972,32.48,0.0
+INSP-10266,2026-08-31 08:42:20,2026-08-31,8,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.962,31.59,0.0
+INSP-10267,2026-08-31 08:59:20,2026-08-31,8,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-109 (Marcus V.),REJECT,Burr,Moderate,0.882,24.72,52.59
+INSP-10268,2026-08-31 09:33:20,2026-08-31,9,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.998,19.58,0.0
+INSP-10269,2026-08-31 09:44:20,2026-08-31,9,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.984,31.01,0.0
+INSP-10270,2026-08-31 10:18:20,2026-08-31,10,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.989,28.91,0.0
+INSP-10271,2026-08-31 10:37:20,2026-08-31,10,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.983,20.93,0.0
+INSP-10272,2026-08-31 10:58:20,2026-08-31,10,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.994,27.53,0.0
+INSP-10273,2026-08-31 11:31:20,2026-08-31,11,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-305 (Priya S.),REJECT,Dent,Minor,0.912,28.3,59.3
+INSP-10274,2026-08-31 11:52:20,2026-08-31,11,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.968,33.42,0.0
+INSP-10275,2026-08-31 12:16:20,2026-08-31,12,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.996,33.98,0.0
+INSP-10276,2026-08-31 12:36:20,2026-08-31,12,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.967,23.31,0.0
+INSP-10277,2026-08-31 13:03:20,2026-08-31,13,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.986,27.43,0.0
+INSP-10278,2026-08-31 13:29:20,2026-08-31,13,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.967,33.29,0.0
+INSP-10279,2026-08-31 13:57:20,2026-08-31,13,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.961,18.22,0.0
+INSP-10280,2026-08-31 14:17:20,2026-08-31,14,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.961,27.24,0.0
+INSP-10281,2026-08-31 14:41:20,2026-08-31,14,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.977,34.12,0.0
+INSP-10282,2026-08-31 15:08:20,2026-08-31,15,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.992,26.89,0.0
+INSP-10283,2026-08-31 15:20:20,2026-08-31,15,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-109 (Marcus V.),REJECT,Crack,Critical,0.901,24.36,277.56
+INSP-10284,2026-08-31 15:52:20,2026-08-31,15,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.977,26.34,0.0
+INSP-10285,2026-08-31 16:20:20,2026-08-31,16,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.971,24.67,0.0
+INSP-10286,2026-08-31 16:31:20,2026-08-31,16,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.963,24.85,0.0
+INSP-10287,2026-08-31 16:56:20,2026-08-31,16,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.976,21.98,0.0
+INSP-10288,2026-08-31 17:32:20,2026-08-31,17,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.983,19.47,0.0
+INSP-10289,2026-08-31 17:56:20,2026-08-31,17,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-418 (Chen W.),REJECT,Crack,Critical,0.978,22.7,180.9
+INSP-10290,2026-08-31 18:16:20,2026-08-31,18,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.965,26.28,0.0
+INSP-10291,2026-08-31 18:42:20,2026-08-31,18,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.972,23.21,0.0
+INSP-10292,2026-08-31 18:57:20,2026-08-31,18,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.984,18.6,0.0
+INSP-10293,2026-08-31 19:27:20,2026-08-31,19,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.999,24.56,0.0
+INSP-10294,2026-08-31 19:46:20,2026-08-31,19,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.989,21.24,0.0
+INSP-10295,2026-08-31 20:16:20,2026-08-31,20,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.994,25.46,0.0
+INSP-10296,2026-08-31 20:32:20,2026-08-31,20,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.992,29.58,0.0
+INSP-10297,2026-08-31 20:59:20,2026-08-31,20,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-104 (Elena R.),REJECT,Burr,Moderate,0.895,24.84,55.85
+INSP-10298,2026-08-31 21:25:20,2026-08-31,21,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.987,21.33,0.0
+INSP-10299,2026-08-31 21:54:20,2026-08-31,21,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.977,29.2,0.0
+INSP-10300,2026-08-31 22:16:20,2026-08-31,22,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.966,22.18,0.0
+INSP-10301,2026-08-31 22:33:20,2026-08-31,22,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.999,34.07,0.0
+INSP-10302,2026-08-31 23:06:20,2026-08-31,23,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.969,31.33,0.0
+INSP-10303,2026-08-31 23:29:20,2026-08-31,23,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.969,29.01,0.0
+INSP-10304,2026-08-31 23:48:20,2026-08-31,23,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.981,33.79,0.0
+INSP-10305,2026-09-01 00:18:20,2026-09-01,0,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.989,33.21,0.0
+INSP-10306,2026-09-01 00:37:20,2026-09-01,0,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.99,31.48,0.0
+INSP-10307,2026-09-01 01:00:20,2026-09-01,1,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.99,26.64,0.0
+INSP-10308,2026-09-01 01:22:20,2026-09-01,1,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.989,28.84,0.0
+INSP-10309,2026-09-01 01:56:20,2026-09-01,1,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.983,32.27,0.0
+INSP-10310,2026-09-01 02:20:20,2026-09-01,2,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.995,32.64,0.0
+INSP-10311,2026-09-01 02:35:20,2026-09-01,2,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.964,21.46,0.0
+INSP-10312,2026-09-01 02:59:20,2026-09-01,2,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.984,19.03,0.0
+INSP-10313,2026-09-01 03:24:20,2026-09-01,3,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.976,31.29,0.0
+INSP-10314,2026-09-01 03:54:20,2026-09-01,3,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.977,25.56,0.0
+INSP-10315,2026-09-01 04:10:20,2026-09-01,4,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.979,22.16,0.0
+INSP-10316,2026-09-01 04:39:20,2026-09-01,4,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.982,28.63,0.0
+INSP-10317,2026-09-01 05:02:20,2026-09-01,5,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.965,32.44,0.0
+INSP-10318,2026-09-01 05:21:20,2026-09-01,5,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.977,23.47,0.0
+INSP-10319,2026-09-01 05:56:20,2026-09-01,5,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.963,31.5,0.0
+INSP-10320,2026-09-01 06:19:20,2026-09-01,6,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.971,31.44,0.0
+INSP-10321,2026-09-01 06:35:20,2026-09-01,6,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.989,18.98,0.0
+INSP-10322,2026-09-01 07:09:20,2026-09-01,7,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.988,27.64,0.0
+INSP-10323,2026-09-01 07:20:20,2026-09-01,7,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.966,34.2,0.0
+INSP-10324,2026-09-01 07:47:20,2026-09-01,7,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.96,32.96,0.0
+INSP-10325,2026-09-01 08:12:20,2026-09-01,8,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.982,21.95,0.0
+INSP-10326,2026-09-01 08:44:20,2026-09-01,8,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-104 (Elena R.),REJECT,Crack,Critical,0.88,24.72,224.57
+INSP-10327,2026-09-01 09:05:20,2026-09-01,9,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.977,30.3,0.0
+INSP-10328,2026-09-01 09:32:20,2026-09-01,9,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.99,18.77,0.0
+INSP-10329,2026-09-01 09:53:20,2026-09-01,9,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.967,19.12,0.0
+INSP-10330,2026-09-01 10:17:20,2026-09-01,10,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.964,25.29,0.0
+INSP-10331,2026-09-01 10:31:20,2026-09-01,10,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-109 (Marcus V.),REJECT,Dent,Moderate,0.962,31.12,63.97
+INSP-10332,2026-09-01 10:55:20,2026-09-01,10,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.973,20.91,0.0
+INSP-10333,2026-09-01 11:23:20,2026-09-01,11,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-305 (Priya S.),REJECT,Void,Critical,0.919,32.62,131.95
+INSP-10334,2026-09-01 11:46:20,2026-09-01,11,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.99,18.21,0.0
+INSP-10335,2026-09-01 12:09:20,2026-09-01,12,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.964,21.56,0.0
+INSP-10336,2026-09-01 12:38:20,2026-09-01,12,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.969,21.57,0.0
+INSP-10337,2026-09-01 13:07:20,2026-09-01,13,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.998,32.16,0.0
+INSP-10338,2026-09-01 13:22:20,2026-09-01,13,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.97,31.74,0.0
+INSP-10339,2026-09-01 13:52:20,2026-09-01,13,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.982,21.95,0.0
+INSP-10340,2026-09-01 14:20:20,2026-09-01,14,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-212 (Devin K.),REJECT,Dent,Moderate,0.975,28.58,42.28
+INSP-10341,2026-09-01 14:39:20,2026-09-01,14,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.987,31.67,0.0
+INSP-10342,2026-09-01 14:56:20,2026-09-01,14,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.987,30.9,0.0
+INSP-10343,2026-09-01 15:30:20,2026-09-01,15,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.974,21.19,0.0
+INSP-10344,2026-09-01 15:57:20,2026-09-01,15,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.974,18.35,0.0
+INSP-10345,2026-09-01 16:08:20,2026-09-01,16,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.988,23.4,0.0
+INSP-10346,2026-09-01 16:37:20,2026-09-01,16,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.983,23.44,0.0
+INSP-10347,2026-09-01 16:55:20,2026-09-01,16,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.98,23.92,0.0
+INSP-10348,2026-09-01 17:26:20,2026-09-01,17,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.978,29.2,0.0
+INSP-10349,2026-09-01 17:55:20,2026-09-01,17,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.975,24.08,0.0
+INSP-10350,2026-09-01 18:09:20,2026-09-01,18,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.964,25.63,0.0
+INSP-10351,2026-09-01 18:43:20,2026-09-01,18,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.993,26.37,0.0
+INSP-10352,2026-09-01 18:55:20,2026-09-01,18,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-305 (Priya S.),REJECT,Crack,Critical,0.89,29.03,144.66
+INSP-10353,2026-09-01 19:31:20,2026-09-01,19,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.999,31.25,0.0
+INSP-10354,2026-09-01 19:50:20,2026-09-01,19,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.963,26.16,0.0
+INSP-10355,2026-09-01 20:13:20,2026-09-01,20,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.991,23.24,0.0
+INSP-10356,2026-09-01 20:41:20,2026-09-01,20,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.986,19.39,0.0
+INSP-10357,2026-09-01 21:05:20,2026-09-01,21,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.966,32.75,0.0
+INSP-10358,2026-09-01 21:22:20,2026-09-01,21,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.986,27.55,0.0
+INSP-10359,2026-09-01 21:49:20,2026-09-01,21,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.982,30.81,0.0
+INSP-10360,2026-09-01 22:09:20,2026-09-01,22,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.977,20.17,0.0
+INSP-10361,2026-09-01 22:33:20,2026-09-01,22,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.991,21.22,0.0
+INSP-10362,2026-09-01 22:55:20,2026-09-01,22,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.964,23.91,0.0
+INSP-10363,2026-09-01 23:30:20,2026-09-01,23,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.962,28.17,0.0
+INSP-10364,2026-09-01 23:46:20,2026-09-01,23,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.983,18.97,0.0
+INSP-10365,2026-09-02 00:10:20,2026-09-02,0,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.966,29.42,0.0
+INSP-10366,2026-09-02 00:40:20,2026-09-02,0,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.966,27.93,0.0
+INSP-10367,2026-09-02 01:03:20,2026-09-02,1,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.975,18.36,0.0
+INSP-10368,2026-09-02 01:28:20,2026-09-02,1,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.985,21.5,0.0
+INSP-10369,2026-09-02 01:43:20,2026-09-02,1,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.998,27.21,0.0
+INSP-10370,2026-09-02 02:19:20,2026-09-02,2,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.99,19.31,0.0
+INSP-10371,2026-09-02 02:34:20,2026-09-02,2,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.976,31.91,0.0
+INSP-10372,2026-09-02 02:58:20,2026-09-02,2,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-418 (Chen W.),REJECT,Crack,Critical,0.964,25.2,50.43
+INSP-10373,2026-09-02 03:28:20,2026-09-02,3,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.965,19.69,0.0
+INSP-10374,2026-09-02 03:53:20,2026-09-02,3,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.991,28.29,0.0
+INSP-10375,2026-09-02 04:20:20,2026-09-02,4,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.994,27.58,0.0
+INSP-10376,2026-09-02 04:34:20,2026-09-02,4,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-104 (Elena R.),REJECT,Crack,Critical,0.886,23.36,172.67
+INSP-10377,2026-09-02 04:56:20,2026-09-02,4,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.98,32.04,0.0
+INSP-10378,2026-09-02 05:27:20,2026-09-02,5,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.971,27.49,0.0
+INSP-10379,2026-09-02 05:45:20,2026-09-02,5,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.988,26.42,0.0
+INSP-10380,2026-09-02 06:17:20,2026-09-02,6,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.982,21.82,0.0
+INSP-10381,2026-09-02 06:39:20,2026-09-02,6,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.961,29.15,0.0
+INSP-10382,2026-09-02 07:04:20,2026-09-02,7,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.975,24.52,0.0
+INSP-10383,2026-09-02 07:30:20,2026-09-02,7,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.967,25.37,0.0
+INSP-10384,2026-09-02 07:48:20,2026-09-02,7,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.991,29.64,0.0
+INSP-10385,2026-09-02 08:21:20,2026-09-02,8,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.975,19.7,0.0
+INSP-10386,2026-09-02 08:32:20,2026-09-02,8,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.964,18.93,0.0
+INSP-10387,2026-09-02 09:04:20,2026-09-02,9,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.981,18.39,0.0
+INSP-10388,2026-09-02 09:30:20,2026-09-02,9,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.975,30.73,0.0
+INSP-10389,2026-09-02 09:56:20,2026-09-02,9,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.976,27.16,0.0
+INSP-10390,2026-09-02 10:07:20,2026-09-02,10,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.972,18.41,0.0
+INSP-10391,2026-09-02 10:32:20,2026-09-02,10,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.985,30.18,0.0
+INSP-10392,2026-09-02 10:59:20,2026-09-02,10,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.967,26.95,0.0
+INSP-10393,2026-09-02 11:19:20,2026-09-02,11,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.986,23.03,0.0
+INSP-10394,2026-09-02 11:44:20,2026-09-02,11,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.977,22.38,0.0
+INSP-10395,2026-09-02 12:17:20,2026-09-02,12,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.979,20.47,0.0
+INSP-10396,2026-09-02 12:39:20,2026-09-02,12,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.966,32.33,0.0
+INSP-10397,2026-09-02 12:56:20,2026-09-02,12,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.99,18.69,0.0
+INSP-10398,2026-09-02 13:26:20,2026-09-02,13,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.966,27.47,0.0
+INSP-10399,2026-09-02 13:47:20,2026-09-02,13,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.963,30.78,0.0
+INSP-10400,2026-09-02 14:17:20,2026-09-02,14,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.998,19.4,0.0
+INSP-10401,2026-09-02 14:40:20,2026-09-02,14,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-104 (Elena R.),REJECT,Scratch,Moderate,0.969,18.62,26.53
+INSP-10402,2026-09-02 15:02:20,2026-09-02,15,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.981,23.65,0.0
+INSP-10403,2026-09-02 15:29:20,2026-09-02,15,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-418 (Chen W.),REJECT,Surface_Stain,Minor,0.886,18.53,12.48
+INSP-10404,2026-09-02 15:44:20,2026-09-02,15,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.987,29.16,0.0
+INSP-10405,2026-09-02 16:07:20,2026-09-02,16,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.975,26.19,0.0
+INSP-10406,2026-09-02 16:32:20,2026-09-02,16,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.972,24.05,0.0
+INSP-10407,2026-09-02 17:00:20,2026-09-02,17,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-305 (Priya S.),REJECT,Void,Critical,0.895,29.81,183.74
+INSP-10408,2026-09-02 17:26:20,2026-09-02,17,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.981,20.26,0.0
+INSP-10409,2026-09-02 17:56:20,2026-09-02,17,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.988,23.28,0.0
+INSP-10410,2026-09-02 18:08:20,2026-09-02,18,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.997,31.44,0.0
+INSP-10411,2026-09-02 18:43:20,2026-09-02,18,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.994,31.68,0.0
+INSP-10412,2026-09-02 18:57:20,2026-09-02,18,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.974,30.87,0.0
+INSP-10413,2026-09-02 19:27:20,2026-09-02,19,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.961,32.61,0.0
+INSP-10414,2026-09-02 19:49:20,2026-09-02,19,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.972,26.92,0.0
+INSP-10415,2026-09-02 20:15:20,2026-09-02,20,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.994,22.66,0.0
+INSP-10416,2026-09-02 20:37:20,2026-09-02,20,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-104 (Elena R.),REJECT,Surface_Stain,Moderate,0.934,21.54,20.65
+INSP-10417,2026-09-02 20:59:20,2026-09-02,20,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.973,33.4,0.0
+INSP-10418,2026-09-02 21:29:20,2026-09-02,21,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.975,31.97,0.0
+INSP-10419,2026-09-02 21:48:20,2026-09-02,21,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.966,28.94,0.0
+INSP-10420,2026-09-02 22:07:20,2026-09-02,22,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.981,26.23,0.0
+INSP-10421,2026-09-02 22:45:20,2026-09-02,22,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.994,28.53,0.0
+INSP-10422,2026-09-02 23:08:20,2026-09-02,23,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.966,18.87,0.0
+INSP-10423,2026-09-02 23:26:20,2026-09-02,23,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.989,20.05,0.0
+INSP-10424,2026-09-02 23:53:20,2026-09-02,23,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.968,31.38,0.0
+INSP-10425,2026-09-03 00:17:20,2026-09-03,0,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-109 (Marcus V.),REJECT,Surface_Stain,Moderate,0.892,21.49,27.72
+INSP-10426,2026-09-03 00:33:20,2026-09-03,0,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.996,33.8,0.0
+INSP-10427,2026-09-03 01:02:20,2026-09-03,1,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.98,28.1,0.0
+INSP-10428,2026-09-03 01:26:20,2026-09-03,1,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.968,30.8,0.0
+INSP-10429,2026-09-03 01:56:20,2026-09-03,1,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.993,33.16,0.0
+INSP-10430,2026-09-03 02:16:20,2026-09-03,2,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.972,32.4,0.0
+INSP-10431,2026-09-03 02:32:20,2026-09-03,2,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.984,27.52,0.0
+INSP-10432,2026-09-03 03:02:20,2026-09-03,3,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.985,29.8,0.0
+INSP-10433,2026-09-03 03:19:20,2026-09-03,3,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.989,18.49,0.0
+INSP-10434,2026-09-03 03:55:20,2026-09-03,3,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.977,29.46,0.0
+INSP-10435,2026-09-03 04:17:20,2026-09-03,4,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.996,22.92,0.0
+INSP-10436,2026-09-03 04:44:20,2026-09-03,4,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.988,22.22,0.0
+INSP-10437,2026-09-03 05:05:20,2026-09-03,5,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.967,29.38,0.0
+INSP-10438,2026-09-03 05:31:20,2026-09-03,5,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.961,29.47,0.0
+INSP-10439,2026-09-03 05:56:20,2026-09-03,5,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.994,32.48,0.0
+INSP-10440,2026-09-03 06:17:20,2026-09-03,6,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.969,20.32,0.0
+INSP-10441,2026-09-03 06:32:20,2026-09-03,6,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.986,21.72,0.0
+INSP-10442,2026-09-03 06:57:20,2026-09-03,6,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.994,31.16,0.0
+INSP-10443,2026-09-03 07:30:20,2026-09-03,7,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-305 (Priya S.),REJECT,Burr,Minor,0.894,25.8,29.29
+INSP-10444,2026-09-03 07:47:20,2026-09-03,7,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.991,20.44,0.0
+INSP-10445,2026-09-03 08:18:20,2026-09-03,8,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.997,29.78,0.0
+INSP-10446,2026-09-03 08:32:20,2026-09-03,8,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.988,31.19,0.0
+INSP-10447,2026-09-03 09:06:20,2026-09-03,9,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.966,31.53,0.0
+INSP-10448,2026-09-03 09:33:20,2026-09-03,9,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.972,26.49,0.0
+INSP-10449,2026-09-03 09:45:20,2026-09-03,9,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.997,24.55,0.0
+INSP-10450,2026-09-03 10:16:20,2026-09-03,10,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.96,25.09,0.0
+INSP-10451,2026-09-03 10:42:20,2026-09-03,10,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.963,23.38,0.0
+INSP-10452,2026-09-03 10:57:20,2026-09-03,10,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.999,23.99,0.0
+INSP-10453,2026-09-03 11:27:20,2026-09-03,11,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.987,23.4,0.0
+INSP-10454,2026-09-03 11:55:20,2026-09-03,11,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.968,18.98,0.0
+INSP-10455,2026-09-03 12:21:20,2026-09-03,12,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.964,28.83,0.0
+INSP-10456,2026-09-03 12:35:20,2026-09-03,12,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.996,26.18,0.0
+INSP-10457,2026-09-03 13:01:20,2026-09-03,13,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.981,26.73,0.0
+INSP-10458,2026-09-03 13:19:20,2026-09-03,13,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.992,31.21,0.0
+INSP-10459,2026-09-03 13:48:20,2026-09-03,13,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.963,24.39,0.0
+INSP-10460,2026-09-03 14:08:20,2026-09-03,14,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-212 (Devin K.),REJECT,Surface_Stain,Moderate,0.903,27.87,56.39
+INSP-10461,2026-09-03 14:41:20,2026-09-03,14,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.989,18.34,0.0
+INSP-10462,2026-09-03 15:00:20,2026-09-03,15,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.993,20.29,0.0
+INSP-10463,2026-09-03 15:27:20,2026-09-03,15,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.982,19.73,0.0
+INSP-10464,2026-09-03 15:57:20,2026-09-03,15,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.964,22.89,0.0
+INSP-10465,2026-09-03 16:19:20,2026-09-03,16,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.993,22.96,0.0
+INSP-10466,2026-09-03 16:39:20,2026-09-03,16,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.993,23.95,0.0
+INSP-10467,2026-09-03 17:01:20,2026-09-03,17,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.986,21.49,0.0
+INSP-10468,2026-09-03 17:24:20,2026-09-03,17,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.965,24.85,0.0
+INSP-10469,2026-09-03 17:53:20,2026-09-03,17,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.974,19.87,0.0
+INSP-10470,2026-09-03 18:08:20,2026-09-03,18,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.994,23.7,0.0
+INSP-10471,2026-09-03 18:34:20,2026-09-03,18,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.996,25.45,0.0
+INSP-10472,2026-09-03 19:08:20,2026-09-03,19,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.996,30.34,0.0
+INSP-10473,2026-09-03 19:21:20,2026-09-03,19,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-305 (Priya S.),REJECT,Burr,Minor,0.919,31.71,34.01
+INSP-10474,2026-09-03 19:45:20,2026-09-03,19,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.967,27.51,0.0
+INSP-10475,2026-09-03 20:15:20,2026-09-03,20,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.977,32.1,0.0
+INSP-10476,2026-09-03 20:41:20,2026-09-03,20,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.979,19.93,0.0
+INSP-10477,2026-09-03 21:04:20,2026-09-03,21,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.973,19.98,0.0
+INSP-10478,2026-09-03 21:20:20,2026-09-03,21,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.99,19.93,0.0
+INSP-10479,2026-09-03 21:50:20,2026-09-03,21,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.992,18.52,0.0
+INSP-10480,2026-09-03 22:21:20,2026-09-03,22,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.963,21.88,0.0
+INSP-10481,2026-09-03 22:31:20,2026-09-03,22,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-109 (Marcus V.),REJECT,Surface_Stain,Minor,0.899,31.6,54.66
+INSP-10482,2026-09-03 23:01:20,2026-09-03,23,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.995,22.51,0.0
+INSP-10483,2026-09-03 23:27:20,2026-09-03,23,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.974,34.01,0.0
+INSP-10484,2026-09-03 23:53:20,2026-09-03,23,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-305 (Priya S.),REJECT,Surface_Stain,Moderate,0.946,29.78,39.22
+INSP-10485,2026-09-04 00:16:20,2026-09-04,0,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.964,27.3,0.0
+INSP-10486,2026-09-04 00:41:20,2026-09-04,0,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-212 (Devin K.),REJECT,Crack,Critical,0.966,30.75,292.24
+INSP-10487,2026-09-04 01:06:20,2026-09-04,1,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.968,18.84,0.0
+INSP-10488,2026-09-04 01:27:20,2026-09-04,1,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.96,27.69,0.0
+INSP-10489,2026-09-04 01:44:20,2026-09-04,1,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.968,22.6,0.0
+INSP-10490,2026-09-04 02:10:20,2026-09-04,2,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.962,22.06,0.0
+INSP-10491,2026-09-04 02:41:20,2026-09-04,2,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.983,27.51,0.0
+INSP-10492,2026-09-04 03:04:20,2026-09-04,3,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-418 (Chen W.),REJECT,Misalignment,Minor,0.972,23.94,64.22
+INSP-10493,2026-09-04 03:24:20,2026-09-04,3,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.965,25.17,0.0
+INSP-10494,2026-09-04 03:46:20,2026-09-04,3,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.995,31.47,0.0
+INSP-10495,2026-09-04 04:16:20,2026-09-04,4,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.969,34.28,0.0
+INSP-10496,2026-09-04 04:31:20,2026-09-04,4,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.963,30.44,0.0
+INSP-10497,2026-09-04 05:07:20,2026-09-04,5,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.97,31.06,0.0
+INSP-10498,2026-09-04 05:25:20,2026-09-04,5,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.972,20.91,0.0
+INSP-10499,2026-09-04 05:43:20,2026-09-04,5,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.962,29.47,0.0
+INSP-10500,2026-09-04 06:20:20,2026-09-04,6,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.972,30.81,0.0
+INSP-10501,2026-09-04 06:41:20,2026-09-04,6,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.967,22.59,0.0
+INSP-10502,2026-09-04 07:01:20,2026-09-04,7,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.969,33.41,0.0
+INSP-10503,2026-09-04 07:22:20,2026-09-04,7,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.977,29.24,0.0
+INSP-10504,2026-09-04 07:46:20,2026-09-04,7,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.963,27.99,0.0
+INSP-10505,2026-09-04 08:12:20,2026-09-04,8,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.962,24.69,0.0
+INSP-10506,2026-09-04 08:32:20,2026-09-04,8,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.973,25.21,0.0
+INSP-10507,2026-09-04 09:00:20,2026-09-04,9,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.973,20.07,0.0
+INSP-10508,2026-09-04 09:19:20,2026-09-04,9,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-305 (Priya S.),REJECT,Burr,Moderate,0.893,26.19,38.94
+INSP-10509,2026-09-04 09:47:20,2026-09-04,9,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.975,24.5,0.0
+INSP-10510,2026-09-04 10:08:20,2026-09-04,10,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-104 (Elena R.),REJECT,Burr,Moderate,0.947,19.04,61.15
+INSP-10511,2026-09-04 10:40:20,2026-09-04,10,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.971,33.64,0.0
+INSP-10512,2026-09-04 10:55:20,2026-09-04,10,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-305 (Priya S.),REJECT,Burr,Moderate,0.938,21.51,24.55
+INSP-10513,2026-09-04 11:26:20,2026-09-04,11,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.984,27.97,0.0
+INSP-10514,2026-09-04 11:47:20,2026-09-04,11,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.971,34.11,0.0
+INSP-10515,2026-09-04 12:21:20,2026-09-04,12,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.965,30.3,0.0
+INSP-10516,2026-09-04 12:45:20,2026-09-04,12,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.968,22.66,0.0
+INSP-10517,2026-09-04 12:57:20,2026-09-04,12,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.982,18.65,0.0
+INSP-10518,2026-09-04 13:26:20,2026-09-04,13,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.962,25.71,0.0
+INSP-10519,2026-09-04 13:44:20,2026-09-04,13,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.975,26.88,0.0
+INSP-10520,2026-09-04 14:12:20,2026-09-04,14,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.982,30.08,0.0
+INSP-10521,2026-09-04 14:38:20,2026-09-04,14,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.988,24.51,0.0
+INSP-10522,2026-09-04 14:57:20,2026-09-04,14,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.962,31.02,0.0
+INSP-10523,2026-09-04 15:20:20,2026-09-04,15,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.977,18.65,0.0
+INSP-10524,2026-09-04 15:55:20,2026-09-04,15,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.977,28.45,0.0
+INSP-10525,2026-09-04 16:11:20,2026-09-04,16,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.997,24.51,0.0
+INSP-10526,2026-09-04 16:31:20,2026-09-04,16,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.962,33.96,0.0
+INSP-10527,2026-09-04 17:04:20,2026-09-04,17,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.99,22.85,0.0
+INSP-10528,2026-09-04 17:27:20,2026-09-04,17,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.972,22.51,0.0
+INSP-10529,2026-09-04 17:50:20,2026-09-04,17,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.999,28.25,0.0
+INSP-10530,2026-09-04 18:10:20,2026-09-04,18,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.981,24.83,0.0
+INSP-10531,2026-09-04 18:35:20,2026-09-04,18,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.985,31.59,0.0
+INSP-10532,2026-09-04 18:55:20,2026-09-04,18,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.992,26.62,0.0
+INSP-10533,2026-09-04 19:31:20,2026-09-04,19,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.975,23.05,0.0
+INSP-10534,2026-09-04 19:57:20,2026-09-04,19,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.996,26.58,0.0
+INSP-10535,2026-09-04 20:12:20,2026-09-04,20,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.974,19.54,0.0
+INSP-10536,2026-09-04 20:42:20,2026-09-04,20,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.976,28.15,0.0
+INSP-10537,2026-09-04 21:09:20,2026-09-04,21,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.972,28.76,0.0
+INSP-10538,2026-09-04 21:26:20,2026-09-04,21,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.977,26.91,0.0
+INSP-10539,2026-09-04 21:45:20,2026-09-04,21,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.969,29.88,0.0
+INSP-10540,2026-09-04 22:07:20,2026-09-04,22,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.971,21.17,0.0
+INSP-10541,2026-09-04 22:41:20,2026-09-04,22,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.98,32.11,0.0
+INSP-10542,2026-09-04 23:04:20,2026-09-04,23,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.96,25.87,0.0
+INSP-10543,2026-09-04 23:25:20,2026-09-04,23,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.98,26.72,0.0
+INSP-10544,2026-09-04 23:57:20,2026-09-04,23,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.974,31.53,0.0
+INSP-10545,2026-09-05 00:12:20,2026-09-05,0,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.992,20.0,0.0
+INSP-10546,2026-09-05 00:32:20,2026-09-05,0,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-104 (Elena R.),REJECT,Burr,Moderate,0.906,19.2,63.0
+INSP-10547,2026-09-05 01:03:20,2026-09-05,1,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.984,21.36,0.0
+INSP-10548,2026-09-05 01:26:20,2026-09-05,1,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.969,30.93,0.0
+INSP-10549,2026-09-05 01:56:20,2026-09-05,1,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-305 (Priya S.),REJECT,Burr,Minor,0.898,19.55,41.89
+INSP-10550,2026-09-05 02:16:20,2026-09-05,2,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.998,22.42,0.0
+INSP-10551,2026-09-05 02:41:20,2026-09-05,2,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.982,34.29,0.0
+INSP-10552,2026-09-05 02:58:20,2026-09-05,2,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.966,31.92,0.0
+INSP-10553,2026-09-05 03:22:20,2026-09-05,3,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.979,26.29,0.0
+INSP-10554,2026-09-05 03:45:20,2026-09-05,3,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.99,22.99,0.0
+INSP-10555,2026-09-05 04:07:20,2026-09-05,4,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-305 (Priya S.),REJECT,Dent,Minor,0.91,28.9,13.54
+INSP-10556,2026-09-05 04:33:20,2026-09-05,4,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.997,20.66,0.0
+INSP-10557,2026-09-05 04:59:20,2026-09-05,4,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.975,23.82,0.0
+INSP-10558,2026-09-05 05:24:20,2026-09-05,5,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.999,30.63,0.0
+INSP-10559,2026-09-05 05:46:20,2026-09-05,5,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-305 (Priya S.),REJECT,Surface_Stain,Minor,0.973,22.78,64.72
+INSP-10560,2026-09-05 06:21:20,2026-09-05,6,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.973,26.56,0.0
+INSP-10561,2026-09-05 06:42:20,2026-09-05,6,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.997,32.49,0.0
+INSP-10562,2026-09-05 06:56:20,2026-09-05,6,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.999,30.4,0.0
+INSP-10563,2026-09-05 07:31:20,2026-09-05,7,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.966,23.47,0.0
+INSP-10564,2026-09-05 07:55:20,2026-09-05,7,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.968,30.47,0.0
+INSP-10565,2026-09-05 08:10:20,2026-09-05,8,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.998,27.31,0.0
+INSP-10566,2026-09-05 08:38:20,2026-09-05,8,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.962,34.48,0.0
+INSP-10567,2026-09-05 09:03:20,2026-09-05,9,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.998,30.42,0.0
+INSP-10568,2026-09-05 09:26:20,2026-09-05,9,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.971,28.87,0.0
+INSP-10569,2026-09-05 09:51:20,2026-09-05,9,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.966,33.09,0.0
+INSP-10570,2026-09-05 10:08:20,2026-09-05,10,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.983,27.94,0.0
+INSP-10571,2026-09-05 10:40:20,2026-09-05,10,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.966,29.45,0.0
+INSP-10572,2026-09-05 11:09:20,2026-09-05,11,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.99,31.21,0.0
+INSP-10573,2026-09-05 11:29:20,2026-09-05,11,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.974,24.93,0.0
+INSP-10574,2026-09-05 11:53:20,2026-09-05,11,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.972,29.26,0.0
+INSP-10575,2026-09-05 12:17:20,2026-09-05,12,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-104 (Elena R.),REJECT,Misalignment,Moderate,0.885,31.69,42.36
+INSP-10576,2026-09-05 12:44:20,2026-09-05,12,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.997,28.62,0.0
+INSP-10577,2026-09-05 13:00:20,2026-09-05,13,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.994,27.03,0.0
+INSP-10578,2026-09-05 13:30:20,2026-09-05,13,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.977,34.0,0.0
+INSP-10579,2026-09-05 13:54:20,2026-09-05,13,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.965,21.79,0.0
+INSP-10580,2026-09-05 14:08:20,2026-09-05,14,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.996,23.67,0.0
+INSP-10581,2026-09-05 14:43:20,2026-09-05,14,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.991,22.57,0.0
+INSP-10582,2026-09-05 15:08:20,2026-09-05,15,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.975,34.41,0.0
+INSP-10583,2026-09-05 15:24:20,2026-09-05,15,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.99,29.06,0.0
+INSP-10584,2026-09-05 15:52:20,2026-09-05,15,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.964,33.53,0.0
+INSP-10585,2026-09-05 16:12:20,2026-09-05,16,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.998,30.69,0.0
+INSP-10586,2026-09-05 16:37:20,2026-09-05,16,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.986,28.43,0.0
+INSP-10587,2026-09-05 17:09:20,2026-09-05,17,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-418 (Chen W.),REJECT,Dent,Moderate,0.893,29.8,59.27
+INSP-10588,2026-09-05 17:22:20,2026-09-05,17,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.986,26.31,0.0
+INSP-10589,2026-09-05 17:43:20,2026-09-05,17,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.99,25.69,0.0
+INSP-10590,2026-09-05 18:15:20,2026-09-05,18,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.998,22.61,0.0
+INSP-10591,2026-09-05 18:39:20,2026-09-05,18,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.975,24.08,0.0
+INSP-10592,2026-09-05 18:59:20,2026-09-05,18,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.973,29.39,0.0
+INSP-10593,2026-09-05 19:22:20,2026-09-05,19,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.996,33.15,0.0
+INSP-10594,2026-09-05 19:47:20,2026-09-05,19,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.974,21.64,0.0
+INSP-10595,2026-09-05 20:16:20,2026-09-05,20,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.999,20.0,0.0
+INSP-10596,2026-09-05 20:41:20,2026-09-05,20,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.996,30.51,0.0
+INSP-10597,2026-09-05 21:03:20,2026-09-05,21,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.964,31.86,0.0
+INSP-10598,2026-09-05 21:29:20,2026-09-05,21,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.99,26.26,0.0
+INSP-10599,2026-09-05 21:56:20,2026-09-05,21,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.965,28.98,0.0
+INSP-10600,2026-09-05 22:09:20,2026-09-05,22,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.97,32.55,0.0
+INSP-10601,2026-09-05 22:36:20,2026-09-05,22,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.97,18.83,0.0
+INSP-10602,2026-09-05 22:58:20,2026-09-05,22,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.974,25.63,0.0
+INSP-10603,2026-09-05 23:24:20,2026-09-05,23,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.973,34.34,0.0
+INSP-10604,2026-09-05 23:57:20,2026-09-05,23,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-109 (Marcus V.),REJECT,Crack,Critical,0.912,32.08,232.83
+INSP-10605,2026-09-06 00:11:20,2026-09-06,0,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.967,33.41,0.0
+INSP-10606,2026-09-06 00:45:20,2026-09-06,0,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.978,30.08,0.0
+INSP-10607,2026-09-06 01:07:20,2026-09-06,1,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.982,31.42,0.0
+INSP-10608,2026-09-06 01:29:20,2026-09-06,1,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.964,19.05,0.0
+INSP-10609,2026-09-06 01:54:20,2026-09-06,1,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-109 (Marcus V.),REJECT,Crack,Critical,0.905,32.09,223.12
+INSP-10610,2026-09-06 02:07:20,2026-09-06,2,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-305 (Priya S.),REJECT,Surface_Stain,Minor,0.948,32.13,53.03
+INSP-10611,2026-09-06 02:32:20,2026-09-06,2,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.993,21.77,0.0
+INSP-10612,2026-09-06 03:04:20,2026-09-06,3,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.971,33.7,0.0
+INSP-10613,2026-09-06 03:31:20,2026-09-06,3,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.969,28.19,0.0
+INSP-10614,2026-09-06 03:44:20,2026-09-06,3,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.962,25.26,0.0
+INSP-10615,2026-09-06 04:16:20,2026-09-06,4,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.961,29.83,0.0
+INSP-10616,2026-09-06 04:45:20,2026-09-06,4,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.989,23.55,0.0
+INSP-10617,2026-09-06 05:05:20,2026-09-06,5,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-418 (Chen W.),REJECT,Surface_Stain,Minor,0.933,31.59,48.04
+INSP-10618,2026-09-06 05:27:20,2026-09-06,5,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.974,18.46,0.0
+INSP-10619,2026-09-06 05:54:20,2026-09-06,5,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-212 (Devin K.),REJECT,Crack,Critical,0.965,25.08,289.86
+INSP-10620,2026-09-06 06:19:20,2026-09-06,6,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.986,30.63,0.0
+INSP-10621,2026-09-06 06:41:20,2026-09-06,6,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.967,22.53,0.0
+INSP-10622,2026-09-06 07:06:20,2026-09-06,7,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.996,22.31,0.0
+INSP-10623,2026-09-06 07:22:20,2026-09-06,7,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.986,22.76,0.0
+INSP-10624,2026-09-06 07:44:20,2026-09-06,7,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.962,19.22,0.0
+INSP-10625,2026-09-06 08:16:20,2026-09-06,8,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.961,30.66,0.0
+INSP-10626,2026-09-06 08:41:20,2026-09-06,8,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.989,19.2,0.0
+INSP-10627,2026-09-06 09:09:20,2026-09-06,9,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.963,23.18,0.0
+INSP-10628,2026-09-06 09:28:20,2026-09-06,9,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.989,25.39,0.0
+INSP-10629,2026-09-06 09:52:20,2026-09-06,9,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.988,31.98,0.0
+INSP-10630,2026-09-06 10:11:20,2026-09-06,10,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-212 (Devin K.),REJECT,Burr,Minor,0.928,27.02,61.72
+INSP-10631,2026-09-06 10:38:20,2026-09-06,10,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.973,22.57,0.0
+INSP-10632,2026-09-06 11:05:20,2026-09-06,11,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.98,27.18,0.0
+INSP-10633,2026-09-06 11:26:20,2026-09-06,11,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.973,32.95,0.0
+INSP-10634,2026-09-06 11:46:20,2026-09-06,11,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.961,18.33,0.0
+INSP-10635,2026-09-06 12:16:20,2026-09-06,12,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.98,31.31,0.0
+INSP-10636,2026-09-06 12:33:20,2026-09-06,12,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.994,32.81,0.0
+INSP-10637,2026-09-06 13:01:20,2026-09-06,13,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.965,27.98,0.0
+INSP-10638,2026-09-06 13:22:20,2026-09-06,13,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.977,33.74,0.0
+INSP-10639,2026-09-06 13:47:20,2026-09-06,13,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.966,34.15,0.0
+INSP-10640,2026-09-06 14:15:20,2026-09-06,14,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.987,20.42,0.0
+INSP-10641,2026-09-06 14:32:20,2026-09-06,14,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.975,19.12,0.0
+INSP-10642,2026-09-06 15:03:20,2026-09-06,15,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.994,20.86,0.0
+INSP-10643,2026-09-06 15:27:20,2026-09-06,15,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.992,26.13,0.0
+INSP-10644,2026-09-06 15:51:20,2026-09-06,15,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.975,19.7,0.0
+INSP-10645,2026-09-06 16:12:20,2026-09-06,16,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-305 (Priya S.),REJECT,Surface_Stain,Minor,0.973,25.65,51.16
+INSP-10646,2026-09-06 16:34:20,2026-09-06,16,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-418 (Chen W.),REJECT,Burr,Minor,0.93,22.62,39.52
+INSP-10647,2026-09-06 16:55:20,2026-09-06,16,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.996,29.61,0.0
+INSP-10648,2026-09-06 17:32:20,2026-09-06,17,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.966,34.27,0.0
+INSP-10649,2026-09-06 17:55:20,2026-09-06,17,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.978,33.52,0.0
+INSP-10650,2026-09-06 18:11:20,2026-09-06,18,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.992,22.25,0.0
+INSP-10651,2026-09-06 18:45:20,2026-09-06,18,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.998,31.96,0.0
+INSP-10652,2026-09-06 19:09:20,2026-09-06,19,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.971,21.42,0.0
+INSP-10653,2026-09-06 19:22:20,2026-09-06,19,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.993,26.69,0.0
+INSP-10654,2026-09-06 19:55:20,2026-09-06,19,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.98,34.19,0.0
+INSP-10655,2026-09-06 20:21:20,2026-09-06,20,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.99,19.76,0.0
+INSP-10656,2026-09-06 20:45:20,2026-09-06,20,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.979,28.65,0.0
+INSP-10657,2026-09-06 21:05:20,2026-09-06,21,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-109 (Marcus V.),REJECT,Scratch,Minor,0.914,27.12,59.26
+INSP-10658,2026-09-06 21:28:20,2026-09-06,21,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.978,33.56,0.0
+INSP-10659,2026-09-06 21:52:20,2026-09-06,21,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.962,26.14,0.0
+INSP-10660,2026-09-06 22:21:20,2026-09-06,22,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.975,19.87,0.0
+INSP-10661,2026-09-06 22:34:20,2026-09-06,22,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.99,24.37,0.0
+INSP-10662,2026-09-06 23:07:20,2026-09-06,23,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.981,18.36,0.0
+INSP-10663,2026-09-06 23:31:20,2026-09-06,23,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.997,20.37,0.0
+INSP-10664,2026-09-06 23:45:20,2026-09-06,23,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.963,25.89,0.0
+INSP-10665,2026-09-07 00:08:20,2026-09-07,0,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.997,34.1,0.0
+INSP-10666,2026-09-07 00:44:20,2026-09-07,0,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.978,25.04,0.0
+INSP-10667,2026-09-07 01:02:20,2026-09-07,1,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.975,34.31,0.0
+INSP-10668,2026-09-07 01:31:20,2026-09-07,1,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.985,33.74,0.0
+INSP-10669,2026-09-07 01:54:20,2026-09-07,1,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.967,30.97,0.0
+INSP-10670,2026-09-07 02:16:20,2026-09-07,2,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.985,23.8,0.0
+INSP-10671,2026-09-07 02:37:20,2026-09-07,2,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.994,33.86,0.0
+INSP-10672,2026-09-07 03:05:20,2026-09-07,3,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.995,24.28,0.0
+INSP-10673,2026-09-07 03:30:20,2026-09-07,3,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.97,27.86,0.0
+INSP-10674,2026-09-07 03:51:20,2026-09-07,3,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.997,30.39,0.0
+INSP-10675,2026-09-07 04:13:20,2026-09-07,4,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.978,25.38,0.0
+INSP-10676,2026-09-07 04:34:20,2026-09-07,4,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.983,19.73,0.0
+INSP-10677,2026-09-07 05:02:20,2026-09-07,5,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.969,18.45,0.0
+INSP-10678,2026-09-07 05:21:20,2026-09-07,5,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.979,19.03,0.0
+INSP-10679,2026-09-07 05:45:20,2026-09-07,5,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-418 (Chen W.),PASS,None,None,0.968,22.71,0.0
+INSP-10680,2026-09-07 06:07:20,2026-09-07,6,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.984,23.09,0.0
+INSP-10681,2026-09-07 06:32:20,2026-09-07,6,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.996,30.63,0.0
+INSP-10682,2026-09-07 06:55:20,2026-09-07,6,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.98,26.98,0.0
+INSP-10683,2026-09-07 07:29:20,2026-09-07,7,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.972,33.5,0.0
+INSP-10684,2026-09-07 07:56:20,2026-09-07,7,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.971,26.95,0.0
+INSP-10685,2026-09-07 08:20:20,2026-09-07,8,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.996,22.85,0.0
+INSP-10686,2026-09-07 08:34:20,2026-09-07,8,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.98,29.14,0.0
+INSP-10687,2026-09-07 09:02:20,2026-09-07,9,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.974,27.63,0.0
+INSP-10688,2026-09-07 09:22:20,2026-09-07,9,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.97,33.72,0.0
+INSP-10689,2026-09-07 09:50:20,2026-09-07,9,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.995,32.29,0.0
+INSP-10690,2026-09-07 10:18:20,2026-09-07,10,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-104 (Elena R.),REJECT,Dent,Minor,0.964,19.17,25.62
+INSP-10691,2026-09-07 10:31:20,2026-09-07,10,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.985,18.39,0.0
+INSP-10692,2026-09-07 11:09:20,2026-09-07,11,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.991,23.48,0.0
+INSP-10693,2026-09-07 11:30:20,2026-09-07,11,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.985,30.15,0.0
+INSP-10694,2026-09-07 11:48:20,2026-09-07,11,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.97,31.25,0.0
+INSP-10695,2026-09-07 12:14:20,2026-09-07,12,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.996,34.34,0.0
+INSP-10696,2026-09-07 12:36:20,2026-09-07,12,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.97,20.59,0.0
+INSP-10697,2026-09-07 13:02:20,2026-09-07,13,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.962,20.08,0.0
+INSP-10698,2026-09-07 13:33:20,2026-09-07,13,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.995,32.17,0.0
+INSP-10699,2026-09-07 13:51:20,2026-09-07,13,Line-03 (Precision Machining),Machined_Gear,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.994,23.6,0.0
+INSP-10700,2026-09-07 14:09:20,2026-09-07,14,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.993,33.31,0.0
+INSP-10701,2026-09-07 14:44:20,2026-09-07,14,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.988,33.38,0.0
+INSP-10702,2026-09-07 14:58:20,2026-09-07,14,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.976,21.3,0.0
+INSP-10703,2026-09-07 15:29:20,2026-09-07,15,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.997,31.28,0.0
+INSP-10704,2026-09-07 15:45:20,2026-09-07,15,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.991,30.57,0.0
+INSP-10705,2026-09-07 16:16:20,2026-09-07,16,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.963,30.65,0.0
+INSP-10706,2026-09-07 16:45:20,2026-09-07,16,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.968,33.34,0.0
+INSP-10707,2026-09-07 16:59:20,2026-09-07,16,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.978,34.38,0.0
+INSP-10708,2026-09-07 17:29:20,2026-09-07,17,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-104 (Elena R.),REJECT,Void,Critical,0.972,23.22,234.14
+INSP-10709,2026-09-07 17:46:20,2026-09-07,17,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.975,26.98,0.0
+INSP-10710,2026-09-07 18:16:20,2026-09-07,18,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.977,29.16,0.0
+INSP-10711,2026-09-07 18:40:20,2026-09-07,18,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.976,32.33,0.0
+INSP-10712,2026-09-07 18:55:20,2026-09-07,18,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.984,26.75,0.0
+INSP-10713,2026-09-07 19:28:20,2026-09-07,19,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.979,24.68,0.0
+INSP-10714,2026-09-07 19:55:20,2026-09-07,19,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.979,26.22,0.0
+INSP-10715,2026-09-07 20:09:20,2026-09-07,20,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.967,27.02,0.0
+INSP-10716,2026-09-07 20:44:20,2026-09-07,20,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.969,33.12,0.0
+INSP-10717,2026-09-07 20:59:20,2026-09-07,20,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.984,22.19,0.0
+INSP-10718,2026-09-07 21:32:20,2026-09-07,21,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-109 (Marcus V.),REJECT,Surface_Stain,Minor,0.893,20.53,24.16
+INSP-10719,2026-09-07 21:55:20,2026-09-07,21,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.972,28.1,0.0
+INSP-10720,2026-09-07 22:07:20,2026-09-07,22,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.983,23.43,0.0
+INSP-10721,2026-09-07 22:32:20,2026-09-07,22,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.992,18.52,0.0
+INSP-10722,2026-09-07 23:02:20,2026-09-07,23,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.972,27.11,0.0
+INSP-10723,2026-09-07 23:26:20,2026-09-07,23,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.976,22.93,0.0
+INSP-10724,2026-09-07 23:56:20,2026-09-07,23,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.992,28.57,0.0
+INSP-10725,2026-09-08 00:08:20,2026-09-08,0,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.964,33.57,0.0
+INSP-10726,2026-09-08 00:41:20,2026-09-08,0,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.977,21.39,0.0
+INSP-10727,2026-09-08 01:05:20,2026-09-08,1,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.994,25.5,0.0
+INSP-10728,2026-09-08 01:30:20,2026-09-08,1,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.982,22.07,0.0
+INSP-10729,2026-09-08 01:51:20,2026-09-08,1,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.975,20.3,0.0
+INSP-10730,2026-09-08 02:16:20,2026-09-08,2,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.982,27.26,0.0
+INSP-10731,2026-09-08 02:45:20,2026-09-08,2,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.961,24.04,0.0
+INSP-10732,2026-09-08 03:04:20,2026-09-08,3,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.995,24.12,0.0
+INSP-10733,2026-09-08 03:31:20,2026-09-08,3,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-212 (Devin K.),REJECT,Crack,Critical,0.965,19.05,215.45
+INSP-10734,2026-09-08 03:44:20,2026-09-08,3,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.989,27.79,0.0
+INSP-10735,2026-09-08 04:17:20,2026-09-08,4,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.98,21.9,0.0
+INSP-10736,2026-09-08 04:40:20,2026-09-08,4,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.965,27.56,0.0
+INSP-10737,2026-09-08 04:56:20,2026-09-08,4,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.987,18.47,0.0
+INSP-10738,2026-09-08 05:21:20,2026-09-08,5,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.968,34.08,0.0
+INSP-10739,2026-09-08 05:52:20,2026-09-08,5,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.982,25.45,0.0
+INSP-10740,2026-09-08 06:14:20,2026-09-08,6,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.992,30.99,0.0
+INSP-10741,2026-09-08 06:43:20,2026-09-08,6,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.992,18.39,0.0
+INSP-10742,2026-09-08 07:05:20,2026-09-08,7,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.985,33.43,0.0
+INSP-10743,2026-09-08 07:31:20,2026-09-08,7,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.965,30.22,0.0
+INSP-10744,2026-09-08 07:47:20,2026-09-08,7,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.972,27.32,0.0
+INSP-10745,2026-09-08 08:16:20,2026-09-08,8,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.966,18.69,0.0
+INSP-10746,2026-09-08 08:38:20,2026-09-08,8,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.998,32.02,0.0
+INSP-10747,2026-09-08 09:09:20,2026-09-08,9,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.965,22.9,0.0
+INSP-10748,2026-09-08 09:32:20,2026-09-08,9,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.968,29.35,0.0
+INSP-10749,2026-09-08 09:50:20,2026-09-08,9,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.976,31.91,0.0
+INSP-10750,2026-09-08 10:09:20,2026-09-08,10,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-109 (Marcus V.),REJECT,Crack,Critical,0.888,25.9,116.62
+INSP-10751,2026-09-08 10:33:20,2026-09-08,10,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.971,29.37,0.0
+INSP-10752,2026-09-08 11:03:20,2026-09-08,11,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.969,18.34,0.0
+INSP-10753,2026-09-08 11:31:20,2026-09-08,11,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.981,27.87,0.0
+INSP-10754,2026-09-08 11:52:20,2026-09-08,11,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.998,29.64,0.0
+INSP-10755,2026-09-08 12:13:20,2026-09-08,12,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.989,19.32,0.0
+INSP-10756,2026-09-08 12:35:20,2026-09-08,12,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.969,24.67,0.0
+INSP-10757,2026-09-08 12:59:20,2026-09-08,12,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-212 (Devin K.),PASS,None,None,0.991,29.5,0.0
+INSP-10758,2026-09-08 13:22:20,2026-09-08,13,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-104 (Elena R.),PASS,None,None,0.99,23.39,0.0
+INSP-10759,2026-09-08 13:47:20,2026-09-08,13,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.975,24.35,0.0
+INSP-10760,2026-09-08 14:14:20,2026-09-08,14,Line-03 (Precision Machining),Machined_Gear,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.964,30.37,0.0
+INSP-10761,2026-09-08 14:37:20,2026-09-08,14,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-109 (Marcus V.),PASS,None,None,0.974,22.5,0.0
+INSP-10762,2026-09-08 15:09:20,2026-09-08,15,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.997,28.79,0.0
+INSP-10763,2026-09-08 15:25:20,2026-09-08,15,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.99,27.84,0.0
+INSP-10764,2026-09-08 15:54:20,2026-09-08,15,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.995,30.72,0.0
+INSP-10765,2026-09-08 16:12:20,2026-09-08,16,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.995,33.89,0.0
+INSP-10766,2026-09-08 16:36:20,2026-09-08,16,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.962,31.95,0.0
+INSP-10767,2026-09-08 16:58:20,2026-09-08,16,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.964,22.64,0.0
+INSP-10768,2026-09-08 17:30:20,2026-09-08,17,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.974,23.86,0.0
+INSP-10769,2026-09-08 17:44:20,2026-09-08,17,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.992,29.62,0.0
+INSP-10770,2026-09-08 18:12:20,2026-09-08,18,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-305 (Priya S.),PASS,None,None,0.967,26.54,0.0
+INSP-10771,2026-09-08 18:45:20,2026-09-08,18,Line-01 (PCB SMT),Circuit_Board,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.997,27.54,0.0
+INSP-10772,2026-09-08 19:08:20,2026-09-08,19,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-104 (Elena R.),PASS,None,None,0.981,23.89,0.0
+INSP-10773,2026-09-08 19:32:20,2026-09-08,19,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.978,26.22,0.0
+INSP-10774,2026-09-08 19:45:20,2026-09-08,19,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.962,29.74,0.0
+INSP-10775,2026-09-08 20:17:20,2026-09-08,20,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.971,32.88,0.0
+INSP-10776,2026-09-08 20:42:20,2026-09-08,20,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.994,33.42,0.0
+INSP-10777,2026-09-08 21:05:20,2026-09-08,21,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.979,33.85,0.0
+INSP-10778,2026-09-08 21:29:20,2026-09-08,21,Line-03 (Precision Machining),Machined_Gear,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.962,28.7,0.0
+INSP-10779,2026-09-08 21:51:20,2026-09-08,21,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.965,34.23,0.0
+INSP-10780,2026-09-08 22:07:20,2026-09-08,22,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-212 (Devin K.),REJECT,Dent,Moderate,0.956,21.2,49.23
+INSP-10781,2026-09-08 22:40:20,2026-09-08,22,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.992,21.48,0.0
+INSP-10782,2026-09-08 23:08:20,2026-09-08,23,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-212 (Devin K.),PASS,None,None,0.978,33.37,0.0
+INSP-10783,2026-09-08 23:28:20,2026-09-08,23,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.971,33.38,0.0
+INSP-10784,2026-09-08 23:53:20,2026-09-08,23,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.964,31.48,0.0
+INSP-10785,2026-09-09 00:10:20,2026-09-09,0,Line-02 (Metal Stamping),Chassis_Panel,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.998,33.78,0.0
+INSP-10786,2026-09-09 00:41:20,2026-09-09,0,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-212 (Devin K.),PASS,None,None,0.971,19.95,0.0
+INSP-10787,2026-09-09 01:01:20,2026-09-09,1,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.996,30.8,0.0
+INSP-10788,2026-09-09 01:25:20,2026-09-09,1,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.968,27.98,0.0
+INSP-10789,2026-09-09 01:46:20,2026-09-09,1,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.984,31.9,0.0
+INSP-10790,2026-09-09 02:09:20,2026-09-09,2,Line-02 (Metal Stamping),Chassis_Panel,Shift-A (06:00-14:00),OP-109 (Marcus V.),PASS,None,None,0.973,20.72,0.0
+INSP-10791,2026-09-09 02:42:20,2026-09-09,2,Line-02 (Metal Stamping),Chassis_Panel,Shift-C (22:00-06:00),OP-104 (Elena R.),REJECT,Scratch,Moderate,0.948,22.24,46.93
+INSP-10792,2026-09-09 03:07:20,2026-09-09,3,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-418 (Chen W.),PASS,None,None,0.988,25.67,0.0
+INSP-10793,2026-09-09 03:22:20,2026-09-09,3,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.992,32.27,0.0
+INSP-10794,2026-09-09 03:48:20,2026-09-09,3,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-418 (Chen W.),PASS,None,None,0.969,33.38,0.0
+INSP-10795,2026-09-09 04:20:20,2026-09-09,4,Line-04 (Welding & Joinery),Pipe_Weld,Shift-A (06:00-14:00),OP-104 (Elena R.),PASS,None,None,0.975,24.86,0.0
+INSP-10796,2026-09-09 04:44:20,2026-09-09,4,Line-01 (PCB SMT),Circuit_Board,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.974,29.1,0.0
+INSP-10797,2026-09-09 05:02:20,2026-09-09,5,Line-04 (Welding & Joinery),Pipe_Weld,Shift-C (22:00-06:00),OP-305 (Priya S.),PASS,None,None,0.973,31.77,0.0
+INSP-10798,2026-09-09 05:32:20,2026-09-09,5,Line-04 (Welding & Joinery),Pipe_Weld,Shift-B (14:00-22:00),OP-109 (Marcus V.),PASS,None,None,0.967,20.3,0.0
+INSP-10799,2026-09-09 05:54:20,2026-09-09,5,Line-01 (PCB SMT),Circuit_Board,Shift-A (06:00-14:00),OP-305 (Priya S.),PASS,None,None,0.988,25.39,0.0
