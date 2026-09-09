@@ -223,10 +223,12 @@ class DefectDetector:
         # 1. Bilateral filter to smooth texture while preserving defect edges
         smoothed = cv2.bilateralFilter(gray, 9, 75, 75)
 
-        # 2. Morphological gradient & high-contrast localized threshold
+        # 2. Morphological gradient & dynamic 3-sigma anomaly thresholding
         kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))
         morph_grad = cv2.morphologyEx(smoothed, cv2.MORPH_GRADIENT, kernel)
-        _, thresh = cv2.threshold(morph_grad, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+        grad_mean, grad_std = cv2.meanStdDev(morph_grad)
+        dynamic_thresh = max(80, int(grad_mean[0][0] + 3.2 * grad_std[0][0]))
+        _, thresh = cv2.threshold(morph_grad, dynamic_thresh, 255, cv2.THRESH_BINARY)
 
         # 3. Find anomalous contour regions
         contours, _ = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
@@ -234,14 +236,14 @@ class DefectDetector:
         for cnt in contours:
             area = cv2.contourArea(cnt)
             # Filter noise and entire-image contours
-            if area < 60 or area > (h * w * 0.4):
+            if area < 50 or area > (h * w * 0.35):
                 continue
 
             x, y, bw, bh = cv2.boundingRect(cnt)
             aspect_ratio = float(bw) / bh if bh > 0 else 1.0
 
             # Classification heuristics based on geometric morphology
-            if aspect_ratio > 3.0 or aspect_ratio < 0.33:
+            if aspect_ratio > 2.5 or aspect_ratio < 0.4:
                 defect_type = "scratch" if area < 400 else "crack"
             elif 0.8 < aspect_ratio < 1.2 and area < 500:
                 defect_type = "hole"
@@ -250,10 +252,11 @@ class DefectDetector:
             else:
                 defect_type = "dent"
 
-            # Compute normalized confidence based on contrast score
+            # Compute normalized confidence based on peak gradient prominence
             roi = morph_grad[y:y+bh, x:x+bw]
-            contrast_score = float(np.mean(roi)) / 255.0
-            confidence = min(0.98, max(0.65, 0.70 + (contrast_score * 0.28)))
+            peak_val = float(np.max(roi)) if roi.size > 0 else 0
+            mean_val = float(np.mean(roi)) if roi.size > 0 else 0
+            confidence = min(0.98, max(0.40, (peak_val / 255.0) * 0.7 + (mean_val / 255.0) * 0.3))
 
             if confidence >= conf:
                 severity = self._compute_severity(defect_type, int(area), confidence)
@@ -262,7 +265,7 @@ class DefectDetector:
                     y1=max(0, y - 2),
                     x2=min(w, x + bw + 2),
                     y2=min(h, y + bh + 2),
-                    confidence=confidence,
+                    confidence=round(confidence, 3),
                     defect_type=defect_type,
                     severity=severity,
                     area_px=int(area)
